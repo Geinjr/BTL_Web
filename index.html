@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Khám phá Gein Hotel: không gian nghỉ dưỡng và ba hạng phòng. Website mô phỏng học tập."
+    />
+    <meta name="theme-color" content="#153e39" />
+    <title>Một kỳ nghỉ an yên | Gein Hotel</title>
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script defer src="assets/js/data.js"></script>
+    <script defer src="assets/js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Đến nội dung chính</a>
+    <div class="topline">
+      MỘT CHÚT AN YÊN, MỘT KỲ NGHỈ ĐÁNG NHỚ · GEIN HOTEL
+    </div>
+    <header class="site-header">
+      <div class="wrap navrow">
+        <a class="brand" href="index.html" aria-label="Gein Hotel - Trang chủ"
+          >GEIN<small>HOTEL & RETREAT</small></a
+        ><button
+          class="menu-toggle"
+          aria-label="Mở menu điều hướng"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          ☰
+        </button>
+        <nav class="navlinks" id="site-nav" aria-label="Điều hướng chính">
+          <a href="index.html" aria-current="page">Trang chủ</a
+          ><a href="phong.html">Phòng nghỉ</a
+          ><a href="dich-vu.html">Trải nghiệm</a
+          ><a href="lien-he.html">Liên hệ</a
+          ><button class="btn" data-book>
+            Đặt phòng <span aria-hidden="true">↗</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero" aria-label="Chào mừng đến Gein Hotel">
+        <div class="wrap">
+          <p class="eyebrow">STAY SLOW. FEEL MORE.</p>
+          <h1>Chạm vào bình yên.<br /><em>Ở lại cùng Gein.</em></h1>
+          <p>
+            Khép lại những vội vã. Mở ra một kỳ nghỉ với không gian xanh, những
+            căn phòng ấm áp và khoảnh khắc dành riêng cho bạn.
+          </p>
+          <a class="btn light" href="phong.html"
+            >Khám phá phòng nghỉ <span aria-hidden="true">↗</span></a
+          >
+        </div>
+        <span class="hero-bottom" aria-hidden="true"
+          >HÍT THỞ · THƯ GIÃN · TẬN HƯỞNG</span
+        >
+      </section>
+      <form class="wrap search-panel" action="phong.html" id="search-form">
+        <div class="field">
+          <label for="checkin">Ngày nhận phòng</label
+          ><input type="date" id="checkin" name="checkin" required />
+        </div>
+        <div class="field">
+          <label for="checkout">Ngày trả phòng</label
+          ><input type="date" id="checkout" name="checkout" required />
+        </div>
+        <div class="field">
+          <label for="guests">Số khách</label
+          ><select id="guests" name="guests">
+            <option value="1">1 khách</option>
+            <option value="2" selected>2 khách</option>
+            <option value="3">3 khách</option>
+            <option value="4">4 khách</option>
+          </select>
+        </div>
+        <button class="btn" type="submit">
+          Tìm phòng phù hợp <span aria-hidden="true">→</span>
+        </button>
+      </form>
+      <section class="section">
+        <div class="wrap intro">
+          <img
+            class="portrait"
+            src="assets/images/lounge.jpg"
+            alt="Không gian nghỉ dưỡng với cây xanh và ánh sáng dịu nhẹ"
+            width="800"
+            height="900"
+            loading="lazy"
+          />
+          <div class="intro-copy">
+            <p class="eyebrow">CHÀO MỪNG ĐẾN VỚI GEIN</p>
+            <h2>Không chỉ là một nơi ở.<br />Là một cảm giác trở về.</h2>
+            <p>
+              Gein được hình dung như một khoảng dừng dịu dàng giữa cuộc sống
+              bận rộn. Từ chất liệu gỗ ấm, sắc xanh của cây lá đến ánh sáng tự
+              nhiên, mỗi chi tiết đều hướng về sự thoải mái.
+            </p>
+            <p>
+              Dù là chuyến đi đôi, kỳ nghỉ gia đình hay một cuối tuần dành cho
+              chính mình, bạn luôn có một góc an yên ở đây.
+            </p>
+            <a class="textlink" href="dich-vu.html"
+              >Câu chuyện qua từng trải nghiệm &nbsp; ↗</a
+            >
+            <div class="intro-facts">
+              <div><strong>03</strong><span>Hạng phòng riêng biệt</span></div>
+              <div><strong>14:00</strong><span>Bắt đầu nhận phòng</span></div>
+              <div><strong>12:00</strong><span>Thời gian trả phòng</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section room-section">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">YOUR OWN LITTLE ESCAPE</p>
+              <h2>Một căn phòng. Nhiều an yên.</h2>
+              <p>
+                Chọn không gian phù hợp để kỳ nghỉ bắt đầu theo cách bạn muốn.
+              </p>
+            </div>
+            <a class="textlink" href="phong.html">Tất cả phòng nghỉ &nbsp; ↗</a>
+          </div>
+          <div class="room-grid">
+            <article class="room-card" data-category="couple" data-capacity="2">
+              <div class="room-photo">
+                <img
+                  src="assets/images/deluxe.jpg"
+                  alt="Phòng ngủ tông màu sáng với giường đôi và ánh sáng tự nhiên"
+                  loading="lazy"
+                  width="800"
+                  height="600"
+                /><span class="room-tag">Bình yên giữa sắc xanh</span>
+              </div>
+              <div class="room-body">
+                <h3>Deluxe Garden</h3>
+                <div class="meta">
+                  32 m² &nbsp; · &nbsp; 2 khách &nbsp; · &nbsp; 1 giường King
+                </div>
+                <p>
+                  Không gian ấm áp dành cho hai người, cửa sổ đón sáng và một
+                  góc nhỏ để chậm lại cùng tách trà.
+                </p>
+                <div class="room-bottom">
+                  <span class="price"
+                    >1.250.000 ₫<small>/ phòng / đêm · Đã gồm thuế</small></span
+                  ><button
+                    class="icon-button"
+                    data-detail="deluxe"
+                    aria-label="Xem chi tiết Deluxe Garden"
+                  >
+                    ↗
+                  </button>
+                </div>
+              </div>
+            </article>
+            <article class="room-card" data-category="couple" data-capacity="2">
+              <div class="room-photo">
+                <img
+                  src="assets/images/premier.jpg"
+                  alt="Phòng nghỉ rộng với giường lớn và nội thất gỗ ấm áp"
+                  loading="lazy"
+                  width="800"
+                  height="600"
+                /><span class="room-tag">Một khoảng trời riêng</span>
+              </div>
+              <div class="room-body">
+                <h3>Premier Balcony</h3>
+                <div class="meta">
+                  42 m² &nbsp; · &nbsp; 2 khách &nbsp; · &nbsp; 1 giường King
+                </div>
+                <p>
+                  Rộng rãi hơn cho một kỳ nghỉ thảnh thơi. Ban công riêng và khu
+                  vực đọc sách mang đến những phút giây thư thái.
+                </p>
+                <div class="room-bottom">
+                  <span class="price"
+                    >1.850.000 ₫<small>/ phòng / đêm · Đã gồm thuế</small></span
+                  ><button
+                    class="icon-button"
+                    data-detail="premier"
+                    aria-label="Xem chi tiết Premier Balcony"
+                  >
+                    ↗
+                  </button>
+                </div>
+              </div>
+            </article>
+            <article class="room-card" data-category="family" data-capacity="4">
+              <div class="room-photo">
+                <img
+                  src="assets/images/family.jpg"
+                  alt="Phòng suite với khu vực nghỉ ngơi và nội thất màu trung tính"
+                  loading="lazy"
+                  width="800"
+                  height="600"
+                /><span class="room-tag">Cùng nhau, thật trọn vẹn</span>
+              </div>
+              <div class="room-body">
+                <h3>Family Suite</h3>
+                <div class="meta">
+                  58 m² &nbsp; · &nbsp; 4 khách &nbsp; · &nbsp; 2 giường Queen
+                </div>
+                <p>
+                  Không gian kết nối cho gia đình hoặc nhóm bạn, có khu vực sinh
+                  hoạt chung để mỗi khoảnh khắc đều gần gũi.
+                </p>
+                <div class="room-bottom">
+                  <span class="price"
+                    >2.650.000 ₫<small>/ phòng / đêm · Đã gồm thuế</small></span
+                  ><button
+                    class="icon-button"
+                    data-detail="family"
+                    aria-label="Xem chi tiết Family Suite"
+                  >
+                    ↗
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="wrap">
+          <div class="experience">
+            <img
+              src="assets/images/dining.jpg"
+              alt="Không gian nhà hàng với bàn ăn và ánh sáng tự nhiên"
+              loading="lazy"
+              width="1000"
+              height="900"
+            />
+            <div class="experience-copy">
+              <p class="eyebrow">NHỮNG ĐIỀU NHỎ, NIỀM VUI LỚN</p>
+              <h2>Để mỗi khoảnh khắc<br />đều đáng ở lại.</h2>
+              <p>
+                Một bữa sáng chậm rãi, một buổi chiều bên cuốn sách, hay chỉ đơn
+                giản là không làm gì. Ở Gein, những điều giản dị làm nên kỳ nghỉ
+                của bạn.
+              </p>
+              <a class="textlink" href="dich-vu.html"
+                >Khám phá trải nghiệm &nbsp; ↗</a
+              >
+            </div>
+          </div>
+          <div class="amenity-strip">
+            <div>
+              <strong>Bữa sáng</strong><span>Đã gồm trong giá phòng</span>
+            </div>
+            <div>
+              <strong>Wi-Fi</strong><span>Kết nối tại không gian chung</span>
+            </div>
+            <div>
+              <strong>Không gian xanh</strong
+              ><span>Một khoảng nghỉ dịu dàng</span>
+            </div>
+            <div>
+              <strong>Hỗ trợ lưu trú</strong
+              ><span>Thông tin rõ ràng, dễ tìm</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cta">
+        <p class="eyebrow">HẸN BẠN MỘT NGÀY KHÔNG VỘI</p>
+        <h2>Kỳ nghỉ tiếp theo, chọn Gein.</h2>
+        <p>
+          Bắt đầu bằng một căn phòng bạn thích. Phần còn lại, dành cho những
+          phút giây thảnh thơi.
+        </p>
+        <button class="btn" data-book>
+          Lên kế hoạch kỳ nghỉ <span aria-hidden="true">↗</span>
+        </button>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div>
+            <a class="brand" href="index.html"
+              >GEIN<small>HOTEL & RETREAT</small></a
+            >
+            <p>
+              Một nơi để nghỉ ngơi, kết nối và tìm lại nhịp sống của riêng bạn.
+            </p>
+          </div>
+          <div>
+            <h3>KHÁM PHÁ GEIN</h3>
+            <a href="phong.html">Phòng nghỉ & bảng giá</a
+            ><a href="dich-vu.html">Dịch vụ & trải nghiệm</a
+            ><a href="chinh-sach.html">Chính sách lưu trú</a
+            ><a href="lien-he.html#faq">Câu hỏi thường gặp</a>
+          </div>
+          <div>
+            <h3>GIỮ KẾT NỐI</h3>
+            <a href="lien-he.html">Thông tin liên hệ & hỗ trợ</a>
+            <p>
+              Gein Hotel là thương hiệu giả định trong bài tập lớn FIT4014 A3.
+              Hình ảnh và giá mang tính minh họa.
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 Gein Hotel · Dự án học tập</span
+          ><span
+            >Thiết kế với sự chỉn chu, dành cho những ngày thảnh thơi.</span
+          >
+        </div>
+      </div>
+    </footer>
+    <dialog id="booking-dialog" aria-labelledby="booking-title">
+      <div class="dialog-head">
+        <h2 id="booking-title">Kỳ nghỉ của bạn</h2>
+        <button
+          class="close-dialog"
+          type="button"
+          aria-label="Đóng cửa sổ đặt phòng"
+          data-close
+        >
+          ×
+        </button>
+      </div>
+      <div class="dialog-body">
+        <p class="notice" style="margin: 0 0 22px">
+          Đây là bản mô phỏng cho đồ án. Không gửi đặt phòng đến khách sạn,
+          không thu tiền và không lưu thông tin cá nhân.
+        </p>
+        <form id="booking-form" class="form-grid">
+          <div class="field full">
+            <label for="book-room">Hạng phòng</label
+            ><select id="book-room" name="room">
+              <option value="deluxe">Deluxe Garden — tối đa 2 khách</option>
+              <option value="premier">Premier Balcony — tối đa 2 khách</option>
+              <option value="family">Family Suite — tối đa 4 khách</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="book-in">Ngày nhận phòng</label
+            ><input id="book-in" name="checkin" type="date" required />
+          </div>
+          <div class="field">
+            <label for="book-out">Ngày trả phòng</label
+            ><input id="book-out" name="checkout" type="date" required />
+          </div>
+          <div class="field">
+            <label for="book-guests">Số khách</label
+            ><select id="book-guests" name="guests">
+              <option value="1">1 khách</option>
+              <option value="2" selected>2 khách</option>
+              <option value="3">3 khách</option>
+              <option value="4">4 khách</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="book-name">Họ và tên</label
+            ><input
+              id="book-name"
+              name="name"
+              autocomplete="name"
+              minlength="2"
+              maxlength="80"
+              required
+              placeholder="Nguyễn Minh Anh"
+            />
+          </div>
+          <div class="field">
+            <label for="book-email">Email</label
+            ><input
+              id="book-email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              maxlength="100"
+              required
+              placeholder="ban@example.com"
+            />
+          </div>
+          <div class="field">
+            <label for="book-phone">Số điện thoại</label
+            ><input
+              id="book-phone"
+              name="phone"
+              type="tel"
+              autocomplete="tel"
+              pattern="[+0-9 ]{9,18}"
+              required
+              placeholder="090 123 4567"
+            />
+          </div>
+          <div class="booking-total full" aria-live="polite" id="booking-total">
+            Chọn ngày để xem tổng tiền.
+          </div>
+          <label class="checkbox full"
+            ><input type="checkbox" required /> Tôi hiểu đây là thao tác mô
+            phỏng và đã đọc chính sách lưu trú.</label
+          >
+          <p class="status full" id="booking-status" role="status"></p>
+          <button class="btn full" type="submit">
+            Xác nhận đặt phòng mẫu <span aria-hidden="true">→</span>
+          </button>
+        </form>
+      </div>
+    </dialog>
+    <dialog id="detail-dialog" aria-labelledby="detail-title">
+      <div class="dialog-head">
+        <h2 id="detail-title">Chi tiết phòng</h2>
+        <button
+          class="close-dialog"
+          type="button"
+          aria-label="Đóng chi tiết phòng"
+          data-close
+        >
+          ×
+        </button>
+      </div>
+      <div class="dialog-body" id="detail-body"></div>
+    </dialog>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+Gein Hotel A3 - ket qua thuc chay
+Thoi diem UTC: 2026-11-16T16:12:46.904Z
+Node: v24.15.0
+Nen tang: win32 x64
+Lenh: npm run check (node scripts/check.cjs)
+Pham vi: DOM/logic jsdom; khong kiem tra layout/browser native
+
+✔ T01: 5 trang nạp mã, heading, nhãn form và liên kết nội bộ hợp lệ (221.2265ms)
+✔ T02: Giá 2 đêm Deluxe và phép tính qua tháng, năm nhuận (15.2061ms)
+✔ T03: Từ chối ngày quá khứ, ngày sai và trả trước hoặc cùng ngày (15.3164ms)
+✔ T04: Từ chối quá sức chứa, khách không hợp lệ và hạng phòng lạ (17.5548ms)
+✔ T05: Bộ lọc hai người, gia đình và tất cả (19.5665ms)
+✔ T06: Tìm cho 4 khách chỉ hiện Family, chuyển đúng ngày và số khách (34.1338ms)
+✔ T07: URL sai được bỏ qua; không chèn script từ query (22.1601ms)
+✔ T08: Chi tiết và nút chọn đúng hạng phòng (15.4283ms)
+✔ T09: Xác nhận mẫu đúng giá, họ tên không thành HTML, không dùng localStorage (18.4705ms)
+✔ T10: Chặn họ tên khoảng trắng và số điện thoại thiếu chữ số (47.2447ms)
+✔ T11: HTML5 ràng buộc trường bắt buộc, email và đồng ý (14.6292ms)
+✔ T12: Liên hệ hợp lệ thành công; lời nhắn khoảng trắng bị chặn (24.1672ms)
+✔ T13: Menu mở đóng và Escape cập nhật trạng thái ARIA (14.6764ms)
+✔ T14: Đổi ngày nhận tự điều chỉnh ngày trả tối thiểu (12.4552ms)
+✔ T15: Tìm phòng chặn ngày sai và cho phép khoảng ngày hợp lệ (13.3381ms)
+✔ T16: Tái hiện lỗi pattern điện thoại cũ, pattern mới biên dịch thành công (12.7781ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1524.8025
+
+Exit code: 0

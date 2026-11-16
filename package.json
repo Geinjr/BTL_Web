@@ -1,0 +1,14 @@
+{
+  "name": "gein-hotel-a3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website khách sạn Gein Hotel - bài tập lớn FIT4014 A3",
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "check": "node scripts/check.cjs",
+    "test": "node --test tests/site.test.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "^31.0.1"
+  }
+}
