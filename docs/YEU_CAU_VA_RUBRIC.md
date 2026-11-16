@@ -33,9 +33,9 @@ Sản phẩm là website tĩnh HTML5/CSS3; JavaScript dùng cho tương tác ph�
 | TC3b | Triển khai và phiên bản         | 10%      | `TRIEN_KHAI.md`, Pages, tag và manifest                | Xem bằng chứng triển khai và GitHub              |
 | TC4a | Đánh giá giao diện, hiệu chỉnh  | 10%      | `KIEM_THU.md`, tiêu chí khả dụng và lỗi pattern        | Đã đánh giá mã/DOM; phần trực quan còn mở        |
 | TC4b | Kiểm thử và sửa lỗi             | 10%      | Bộ thử tự động, log thực chạy, tái hiện lỗi và thử lại | Xem log; không suy ra đã thử trên thiết bị thật  |
-| TC5  | Báo cáo và bàn giao             | 10%      | Báo cáo, README, ghi chú phiên bản, nguồn              | Đã có bản Markdown; thông tin sinh viên chưa có  |
+| TC5  | Báo cáo và bàn giao             | 10%      | Báo cáo, README, ghi chú phiên bản, nguồn              | Đã có bản Markdown và thông tin sinh viên |
 | TC6a | Phản biện giao diện             | 2%       | `DEMO.md`, lý do và đánh đổi                           | Đã chuẩn bị; chưa trình bày trực tiếp            |
 | TC6b | Demo, xử lý lỗi triển khai      | 3%       | URL và kịch bản demo/xử lý 404                         | Đã chuẩn bị; chưa thực hiện trước giảng viên     |
-| TC7  | Quy cách, khai báo, trách nhiệm | 5%       | AI_LOG, nguồn, các giới hạn ghi rõ                     | Chờ xác nhận thông tin sinh viên và quy định LMS |
+| TC7  | Quy cách, khai báo, trách nhiệm | 5%       | AI_LOG, nguồn, các giới hạn ghi rõ                     | Đã có thông tin sinh viên; chờ đối chiếu LMS |
 
 Không chuyển trạng thái “chưa kiểm tra” thành “đạt” chỉ vì đã có mã nguồn hoặc wireframe. Không tự đánh điểm số khi chưa có BM13 và đánh giá của giảng viên.

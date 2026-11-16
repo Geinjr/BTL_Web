@@ -4,8 +4,8 @@ Website khách sạn giả định cho bài tập lớn **FIT4014 A3 – Thiết
 
 - Website: https://geinjr.github.io/BTL_Web/
 - Repository: https://github.com/Geinjr/BTL_Web
-- Phiên bản bàn giao: `v1.0.0`. Kiểm tra tag trên GitHub để xác định commit chính xác.
-- Sinh viên: **Đỗ Trung Kiên**, lớp **CNTT17-13**, học kỳ **1**, năm học **2026–2027**. Tài khoản GitHub: `Geinjr`. Mã sinh viên chưa cung cấp; cần bổ sung trước khi nộp LMS.
+- Mã website nền: `v1.0.0`. Hồ sơ sinh viên mới nhất nằm trên nhánh `main`, ở commit cập nhật sau tag này.
+- Sinh viên: **Đỗ Trung Kiên**, mã sinh viên **1771020780**, lớp **CNTT17-13**, học kỳ **1**, năm học **2026–2027**. Tài khoản GitHub: `Geinjr`.
 
 ## Sản phẩm
 
@@ -71,4 +71,4 @@ Không đưa `node_modules`, cấu hình VS Code, công cụ đọc PDF hay ản
 
 ## Trạng thái trước khi nộp
 
-Đọc mục “Việc còn cần người nộp xác nhận” trong báo cáo. Chưa có BM13 riêng và quy định nộp trên LMS. Không cam kết điểm số hoặc tự khai đã demo, đã kiểm tra trực quan khi chưa thực hiện. Chủ tài khoản cần đọc hiểu mã, bổ sung thông tin sinh viên và tự xác nhận phần việc cá nhân trong khai báo.
+Đọc mục “Việc còn cần người nộp xác nhận” trong báo cáo. Chưa có BM13 riêng và quy định nộp trên LMS. Không cam kết điểm số hoặc tự khai đã demo, đã kiểm tra trực quan khi chưa thực hiện. Chủ tài khoản cần đọc hiểu mã và tự xác nhận phần việc cá nhân trong khai báo.

@@ -6,11 +6,11 @@
 | ------------------------ | ------------------------------------------------ |
 | Chủ đề                   | Website khách sạn Gein Hotel                     |
 | Tài khoản bàn giao       | Geinjr                                           |
-| Họ tên, mã SV, lớp/ngành | Đỗ Trung Kiên · Mã SV: chưa cung cấp · CNTT17-13 |
+| Họ tên, mã SV, lớp/ngành | Đỗ Trung Kiên · Mã SV: 1771020780 · CNTT17-13 |
 | Học kỳ/năm học           | Học kỳ 1 · Năm học 2026–2027 |
 | Repository               | https://github.com/Geinjr/BTL_Web                |
 | Website                  | https://geinjr.github.io/BTL_Web/                |
-| Phiên bản                | Tag bàn giao `v1.0.0`; kiểm tra SHA trong GitHub |
+| Phiên bản                | Mã website `v1.0.0`; hồ sơ mới nhất trên `main` |
 
 ## Lời khai báo
 
@@ -63,7 +63,7 @@ Tiêu chí đánh giá gồm nhất quán điều hướng, đọc bảng giá, 
 
 [README](../README.md) hướng dẫn mở file trực tiếp, chạy server local và kiểm thử; [CHANGELOG](../CHANGELOG.md) nêu thay đổi và giới hạn; [AI_LOG](../AI_LOG.md) ghi vai trò AI; thư mục `docs` chứa yêu cầu, thiết kế, kiểm thử, nguồn và demo. Ảnh nằm trong mã nguồn để tránh phụ thuộc hotlink. Phông ngoài có font hệ thống dự phòng.
 
-Phiên bản bàn giao dùng tag `v1.0.0`. Manifest và kiểm tra SHA-256 nối mã nguồn với tài nguyên URL. Khi chỉnh sửa nội dung sau này, phải chạy lại kiểm thử/manifest và cập nhật bản triển khai; không dùng log cũ làm bằng chứng cho mã mới.
+Mã website nền dùng tag `v1.0.0`; thông tin sinh viên được bổ sung ở commit mới hơn trên nhánh `main`. Manifest và kiểm tra SHA-256 nối mã nguồn website với tài nguyên URL. Khi chỉnh sửa mã website sau này, phải chạy lại kiểm thử/manifest và cập nhật bản triển khai; không dùng log cũ làm bằng chứng cho mã mới.
 
 ## 6. Demo và phản biện
 
@@ -73,7 +73,7 @@ Phiên bản bàn giao dùng tag `v1.0.0`. Manifest và kiểm tra SHA-256 nối
 
 Ảnh tải từ Unsplash; font Google Fonts; nguồn cụ thể và giấy phép được liệt kê tại [Danh mục nguồn](NGUON_TAI_NGUYEN.md). Tên/giá/nội dung là giả định. Không đăng PDF hoặc mẫu báo cáo của giảng viên lên repository công khai. Không công bố token, thông tin khách thật hoặc khai báo sai vai trò AI.
 
-Người nộp cần bổ sung mã sinh viên, xác nhận phần việc cá nhân, kiểm tra quy định đặt tên và hạn nộp LMS, đối chiếu BM13 chính thức. Mẫu báo cáo đã cung cấp tên tiêu chí con nhưng không thay cho mô tả mức đạt trong BM13.
+Người nộp cần xác nhận phần việc cá nhân, kiểm tra quy định đặt tên và hạn nộp LMS, đối chiếu BM13 chính thức. Mẫu báo cáo đã cung cấp tên tiêu chí con nhưng không thay cho mô tả mức đạt trong BM13.
 
 ## 8. Phụ lục minh chứng
 
@@ -93,7 +93,7 @@ Người nộp cần bổ sung mã sinh viên, xác nhận phần việc cá nh�
 
 ### Việc còn cần người nộp xác nhận
 
-- Mã sinh viên (họ tên, lớp và học kỳ/năm học đã được cung cấp).
+- Thông tin sinh viên đã được cung cấp đầy đủ; người nộp kiểm tra lại trước khi nộp LMS.
 - Bản BM13 và hướng dẫn LMS; điều chỉnh hồ sơ nếu quy định có yêu cầu cụ thể khác.
 - Kiểm tra trực quan desktop/mobile, bàn phím và dialog native; ghi minh chứng thật.
 - Đọc hiểu mã, xác nhận phần việc cá nhân và thực hiện demo theo lịch lớp.

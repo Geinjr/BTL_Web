@@ -4,7 +4,7 @@
 
 Dự án có sử dụng **OpenAI Codex** qua hội thoại làm việc ngày 16/11/2026. AI hỗ trợ đọc tài liệu, phân tích yêu cầu, viết mã, soạn hồ sơ, chạy kiểm thử và thao tác triển khai GitHub theo yêu cầu của người dùng. Không khai báo đây là mã do sinh viên tự viết toàn bộ.
 
-Người dùng chọn chủ đề khách sạn, xác nhận tên **Gein Hotel**, yêu cầu dọn tệp phụ và chỉ định repository `Geinjr/BTL_Web`. Thông tin người nộp: Đỗ Trung Kiên, lớp CNTT17-13, học kỳ 1 năm học 2026–2027; mã sinh viên chưa cung cấp. Chưa có thông tin để xác nhận phần mã sinh viên tự viết; người nộp cần bổ sung trung thực trước khi nộp.
+Người dùng chọn chủ đề khách sạn, xác nhận tên **Gein Hotel**, yêu cầu dọn tệp phụ và chỉ định repository `Geinjr/BTL_Web`. Thông tin người nộp: Đỗ Trung Kiên, mã sinh viên 1771020780, lớp CNTT17-13, học kỳ 1 năm học 2026–2027. Chưa có thông tin để xác nhận phần mã sinh viên tự viết; người nộp cần bổ sung trung thực trước khi nộp.
 
 ## Các yêu cầu và công việc thực hiện
 

@@ -23,7 +23,7 @@ Theo [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-
 - `minh-chung/manifest.json`: SHA-256 của 5 trang và toàn bộ tài nguyên website tại thời điểm chốt mã.
 - `minh-chung/trien-khai.json`: kết quả tải công khai/so sánh hash thực tế, có thời gian chạy.
 - Tab Actions hoặc API Pages builds trên GitHub: trạng thái triển khai và SHA commit.
-- Tag `v1.0.0`: commit bàn giao cuối cùng. Có thể có một commit bổ sung hồ sơ minh chứng sau lần đo đầu; nếu mã website không đổi, các hash website vẫn phải giữ nguyên. Không dùng SHA của bản trước để tuyên bố đã xác minh commit sau.
+- Tag `v1.0.0`: bản mã website ban đầu; hồ sơ sinh viên mới nhất nằm trên nhánh `main`. Nếu mã website không đổi, các hash website phải giữ nguyên qua commit cập nhật hồ sơ. Không dùng SHA của bản trước để tuyên bố đã xác minh commit sau.
 
 Manifest nhận diện nội dung website. Để kiểm tra commit cuối, đối chiếu SHA bản build Pages với `git rev-parse HEAD` và `git rev-list -n 1 v1.0.0`; sau đó chạy xác minh hash tại cùng checkout. Log triển khai không bao gồm chính nó trong hash để tránh tham chiếu vòng.
 
