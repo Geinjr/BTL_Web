@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-11-16T16:18:00.085Z",
+  "baseUrl": "https://geinjr.github.io/BTL_Web/",
+  "version": "1.0.0",
+  "scope": "HTTP và SHA-256; không kiểm tra browser/layout",
+  "results": [
+    {
+      "path": "assets/css/style.css",
+      "status": 200,
+      "expectedSha256": "fcf175b1a34216ca8676ffa00c2032e9fda3b27ce00d9c14bae6ce88b09f85b6",
+      "actualSha256": "fcf175b1a34216ca8676ffa00c2032e9fda3b27ce00d9c14bae6ce88b09f85b6",
+      "passed": true
+    },
+    {
+      "path": "assets/images/deluxe.jpg",
+      "status": 200,
+      "expectedSha256": "e4af7a3d33c367849dcc5a475283cefed6f996810ea76484a47a9067d520b08a",
+      "actualSha256": "e4af7a3d33c367849dcc5a475283cefed6f996810ea76484a47a9067d520b08a",
+      "passed": true
+    },
+    {
+      "path": "assets/images/dining.jpg",
+      "status": 200,
+      "expectedSha256": "c86368207125e3d31fc8482f50afce9a8a25fa45070827380f934a71293a8fdb",
+      "actualSha256": "c86368207125e3d31fc8482f50afce9a8a25fa45070827380f934a71293a8fdb",
+      "passed": true
+    },
+    {
+      "path": "assets/images/family.jpg",
+      "status": 200,
+      "expectedSha256": "d0baf5ecb0c4546679a3bc386715415a19274fb0d4470b263a41da6e00890b46",
+      "actualSha256": "d0baf5ecb0c4546679a3bc386715415a19274fb0d4470b263a41da6e00890b46",
+      "passed": true
+    },
+    {
+      "path": "assets/images/favicon.svg",
+      "status": 200,
+      "expectedSha256": "a2169a326c15ef5929d399b135d19f3fa6f9a148e9bcfa3bb29cc6a7b19624a7",
+      "actualSha256": "a2169a326c15ef5929d399b135d19f3fa6f9a148e9bcfa3bb29cc6a7b19624a7",
+      "passed": true
+    },
+    {
+      "path": "assets/images/hero.jpg",
+      "status": 200,
+      "expectedSha256": "dd2f34c490590b5b14604e619aee047ebf21f98a63e6030d547a97d7b3096fa0",
+      "actualSha256": "dd2f34c490590b5b14604e619aee047ebf21f98a63e6030d547a97d7b3096fa0",
+      "passed": true
+    },
+    {
+      "path": "assets/images/lounge.jpg",
+      "status": 200,
+      "expectedSha256": "894b1ecfc662bddc6cb43c60e7b46cb1ab2126d2764dcdc490ea7692b9ce9f07",
+      "actualSha256": "894b1ecfc662bddc6cb43c60e7b46cb1ab2126d2764dcdc490ea7692b9ce9f07",
+      "passed": true
+    },
+    {
+      "path": "assets/images/premier.jpg",
+      "status": 200,
+      "expectedSha256": "ce54c770acdcd2230f7f79723c04be6521388f500b0f56462cf0dc98b8e4d613",
+      "actualSha256": "ce54c770acdcd2230f7f79723c04be6521388f500b0f56462cf0dc98b8e4d613",
+      "passed": true
+    },
+    {
+      "path": "assets/js/app.js",
+      "status": 200,
+      "expectedSha256": "f079eb458182e95aaa411a0b85a1d98336905246242f7841f80e6a05db1f17f3",
+      "actualSha256": "f079eb458182e95aaa411a0b85a1d98336905246242f7841f80e6a05db1f17f3",
+      "passed": true
+    },
+    {
+      "path": "assets/js/data.js",
+      "status": 200,
+      "expectedSha256": "eba5403a20eff505a552929ac067509582e119305a157d3bda2f0e596f39a159",
+      "actualSha256": "eba5403a20eff505a552929ac067509582e119305a157d3bda2f0e596f39a159",
+      "passed": true
+    },
+    {
+      "path": "chinh-sach.html",
+      "status": 200,
+      "expectedSha256": "3cf79fb96262eb9996b1f802bc2dd6c43a36cabc1a53f5446d2f2594c397a82a",
+      "actualSha256": "3cf79fb96262eb9996b1f802bc2dd6c43a36cabc1a53f5446d2f2594c397a82a",
+      "passed": true
+    },
+    {
+      "path": "dich-vu.html",
+      "status": 200,
+      "expectedSha256": "d7c3d040a270f5ee665c1baf1caf39bf19d2499813a2ccadc9ea29655fb27df7",
+      "actualSha256": "d7c3d040a270f5ee665c1baf1caf39bf19d2499813a2ccadc9ea29655fb27df7",
+      "passed": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "expectedSha256": "3c8d8a6cc7751b9364d4a7a16130f6cf53c28e4708def9314a0e4a4f9c37e776",
+      "actualSha256": "3c8d8a6cc7751b9364d4a7a16130f6cf53c28e4708def9314a0e4a4f9c37e776",
+      "passed": true
+    },
+    {
+      "path": "lien-he.html",
+      "status": 200,
+      "expectedSha256": "06c4e6c8f31e45b9ee1a1d07f86d91cab8460c9c49424fbc536d6f423e53ac84",
+      "actualSha256": "06c4e6c8f31e45b9ee1a1d07f86d91cab8460c9c49424fbc536d6f423e53ac84",
+      "passed": true
+    },
+    {
+      "path": "phong.html",
+      "status": 200,
+      "expectedSha256": "b33e3cd731946698781b557a99c522f9c74ac2bf2c0972a48f7f3200576b2700",
+      "actualSha256": "b33e3cd731946698781b557a99c522f9c74ac2bf2c0972a48f7f3200576b2700",
+      "passed": true
+    }
+  ],
+  "sourceCommit": "656206584c2bb108d2fe64ee689b26e89a238731",
+  "passed": true
+}

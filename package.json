@@ -2,6 +2,9 @@
   "name": "gein-hotel-a3",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
+  },
   "description": "Website khách sạn Gein Hotel - bài tập lớn FIT4014 A3",
   "scripts": {
     "start": "node scripts/serve.cjs",

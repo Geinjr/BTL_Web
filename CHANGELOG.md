@@ -8,7 +8,7 @@
 - Bổ sung kiểm thử DOM, README, báo cáo A3, AI_LOG, wireframe, nguồn tài nguyên và kịch bản demo.
 - Dùng `form.elements.namedItem` để tránh trùng với thuộc tính `name` của form.
 - Sửa pattern điện thoại để hợp lệ với biểu thức chính quy chế độ `v` của HTML hiện đại.
-- Chuẩn bị GitHub Pages từ nhánh `main`, thư mục gốc; `.nojekyll` dùng website tĩnh.
+- Đã bật GitHub Pages từ nhánh `main`, thư mục gốc; `.nojekyll` dùng website tĩnh. Lần kiểm tra công khai đầu tiên có 15/15 tệp HTTP 200 và khớp SHA-256.
 
 ### Giới hạn
 

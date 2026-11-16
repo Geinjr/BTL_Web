@@ -2,6 +2,7 @@
 const fs = require("node:fs");
 const path = require("node:path");
 const crypto = require("node:crypto");
+const { execFileSync } = require("node:child_process");
 const root = path.resolve(__dirname, "..");
 const dir = path.join(root, "docs/minh-chung");
 fs.mkdirSync(dir, { recursive: true });
@@ -54,6 +55,15 @@ async function main() {
     scope: "HTTP và SHA-256; không kiểm tra browser/layout",
     results: [],
   };
+  try {
+    result.sourceCommit = execFileSync("git", ["rev-parse", "HEAD"], {
+      cwd: root,
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+    }).trim();
+  } catch {
+    result.sourceCommit = null;
+  }
   for (const item of manifest.files) {
     const local = digest(fs.readFileSync(path.join(root, item.path)));
     if (local !== item.sha256)
@@ -74,10 +84,12 @@ async function main() {
     console.log(`${passed ? "PASS" : "FAIL"} ${response.status} ${item.path}`);
   }
   result.passed = result.results.every((x) => x.passed);
-  fs.writeFileSync(
-    path.join(dir, "trien-khai.json"),
-    JSON.stringify(result, null, 2) + "\n",
-  );
+  if (!process.argv.includes("--no-write")) {
+    fs.writeFileSync(
+      path.join(dir, "trien-khai.json"),
+      JSON.stringify(result, null, 2) + "\n",
+    );
+  }
   if (!result.passed) process.exitCode = 1;
 }
 main().catch((error) => {

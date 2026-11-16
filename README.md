@@ -4,7 +4,7 @@ Website khách sạn giả định cho bài tập lớn **FIT4014 A3 – Thiết
 
 - Website: https://geinjr.github.io/BTL_Web/
 - Repository: https://github.com/Geinjr/BTL_Web
-- Phiên bản bàn giao dự kiến: `v1.0.0`. Kiểm tra tag trên GitHub để xác định commit chính xác.
+- Phiên bản bàn giao: `v1.0.0`. Kiểm tra tag trên GitHub để xác định commit chính xác.
 - Sinh viên: **Đỗ Trung Kiên**, lớp **CNTT17-13**, học kỳ **1**, năm học **2026–2027**. Tài khoản GitHub: `Geinjr`. Mã sinh viên chưa cung cấp; cần bổ sung trước khi nộp LMS.
 
 ## Sản phẩm
@@ -25,7 +25,7 @@ Website dùng HTML5, CSS3 và JavaScript thuần, không có framework hoặc ba
 
 Cách nhanh: mở `index.html` bằng trình duyệt hoặc dùng Live Server trong VS Code. Không cần cài thư viện để xem website; phông chữ trực tuyến có phông hệ thống dự phòng.
 
-Để dùng máy chủ có sẵn, cài Node.js 22 trở lên rồi chạy:
+Để dùng máy chủ và bộ kiểm thử, dùng Node.js **24.15.0 trở lên trong nhánh 24** (môi trường đã kiểm thử), hoặc phiên bản đáp ứng `engines` trong `package.json`, rồi chạy:
 
 ```sh
 npm start

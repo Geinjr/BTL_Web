@@ -51,7 +51,7 @@ Năm trang: trang chủ, phòng nghỉ, trải nghiệm, liên hệ/FAQ và chí
 
 Giá minh họa: Deluxe 1.250.000 ₫/đêm cho tối đa 2 khách; Premier 1.850.000 ₫/đêm cho 2 khách; Family 2.650.000 ₫/đêm cho 4 khách. Trẻ em tính vào tổng khách, mỗi phép tính cho một phòng; thuế và bữa sáng đã gồm trong giá, không có phụ thu.
 
-Triển khai dự kiến/đích tại URL nêu ở đầu báo cáo bằng nhánh `main`, root, `.nojekyll`. Trạng thái xuất bản thực tế phải đối chiếu GitHub Pages và [minh chứng](minh-chung/trien-khai.json); không suy ra chỉ từ URL ghi trong tài liệu. Quy trình xác minh commit/tag và hash tại [Triển khai](TRIEN_KHAI.md).
+Đã triển khai tại URL nêu ở đầu báo cáo bằng nhánh `main`, root, `.nojekyll`. Lần kiểm tra công khai đầu tiên xác nhận 15/15 tệp (5 trang và 10 tài nguyên) trả HTTP 200 và khớp SHA-256; xem [minh chứng](minh-chung/trien-khai.json) và [build GitHub](minh-chung/pages-build.json). Minh chứng lưu lần đo trước commit bổ sung hồ sơ, có ghi SHA checkout tại thời điểm đo; mã website giữ nguyên và bản chốt cần kiểm tra lại theo hướng dẫn. Quy trình xác minh commit/tag và hash tại [Triển khai](TRIEN_KHAI.md).
 
 ## 4. Đánh giá, kiểm thử và hiệu chỉnh
 
